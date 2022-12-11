@@ -1,0 +1,28 @@
+.bg-side {
+    background-color: rgba(60, 177, 243, 0.18);
+}
+
+.w-maintext {
+    width: 560px;
+}
+
+.w-hardstrike {
+    width: 300px;
+
+}
+
+.w-lightstrike {
+    width: 540px;
+}
+
+.w-lightstrike-side {
+    width: 270px;
+}
+
+.border-t-3 {
+    border-top-width: 3px;
+}
+
+.shadow-custom {
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.25);
+}
