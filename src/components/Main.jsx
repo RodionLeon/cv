@@ -38,7 +38,7 @@ function Main() {
                     title="Roll Dice"
                     techs=" kotlin, MVVM, Hilt, Retrofit, Room"
                     gifurl={rollDice}
-                    giturl=" https://github.com/RodionLeon/Android-TMS/tree/master/AndroidTask2"
+                    giturl=" https://github.com/RodionLeon/Android-TMS/tree/master/Android%20task%202"
                 />
                 <Lightstrike />
                 
