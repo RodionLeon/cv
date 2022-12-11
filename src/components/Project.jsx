@@ -5,7 +5,7 @@ function Project({giturl, gifurl, title, techs}) {
                 <div className="flex flex-col gap-2">
                     <h1 className="text-xl font-normal">{title}</h1>
                     <span className="text-md font-light">Technologies:{techs}</span>
-                    <a href={giturl}>
+                    <a href={giturl} target='_blank' rel="noreferrer">
                         <img
                             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                             alt="gitbtn"

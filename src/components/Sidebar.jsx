@@ -16,7 +16,7 @@ function Sidebar() {
                 <Subtitle content={'Languages'} />
                 <div className="flex flex-col gap-2">
                     <span className="text-xl font-normal">Russian(Native)</span>
-                    <span className="text-xl font-normal">English(Fluent)</span>
+                    <span className="text-xl font-normal">English(B1)</span>
                 </div>
             </div>
         </div>

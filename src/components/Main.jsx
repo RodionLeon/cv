@@ -5,6 +5,7 @@ import quizGif from '../gif/Quiz.gif';
 import affirmations from '../gif/Affirmations (1).gif'
 import rollDice from '../gif/gifr.gif'
 import rodion from "../photo/ebalo.jpg"
+import reduxApi from "../photo/Redux&API.png"
 
 function Main() {
     return (
@@ -25,6 +26,13 @@ function Main() {
                     techs=" kotlin, MVVM, Hilt, Retrofit, Room"
                     gifurl= {quizGif}
                     giturl=" https://github.com/RodionLeon/TMS_Qiuz/tree/master"
+                />
+                <Lightstrike />
+                <Project
+                    title="Redux & API"
+                    techs=" React, Redux, React-Router, Thunk, Tailwind"
+                    gifurl= {reduxApi}
+                    giturl=" https://github.com/RodionLeon/Redux-API"
                 />
                 <Lightstrike />
                 <Project
