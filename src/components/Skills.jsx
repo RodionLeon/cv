@@ -12,6 +12,10 @@ function Skills() {
                 <Rating name="read-only" value={3} readOnly />
             </div>
             <div className="flex flex-row items-center justify-between gap-2">
+                <span className="text-xl font-normal">GitHub</span>
+                <Rating name="read-only" value={3} readOnly />
+            </div>
+            <div className="flex flex-row items-center justify-between gap-2">
                 <span className="text-xl font-normal">JS</span>
                 <Rating name="read-only" value={3} readOnly />
             </div>

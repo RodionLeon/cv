@@ -16,7 +16,7 @@ function Main() {
                 <span className=" w-2/3">
                 I am a 2nd year student at BSU at the Faculty of Mechanics and Mathematics, specializing in mathematics and software for mobile devices, I graduated from TMS (teach me skills) courses with a degree in android developer.
                 I am proficient in Room, SqlIte, Hilt, Dagger2, Kotlin Coroutines technologies.
-                Familiar with the basic principles of DRY, SOLID, YAGNI, KISS, Clean architecture, MVVM, MVR, MVI.
+                Familiar with the basic principles of DRY, SOLID, YAGNI, KISS, Clean architecture, MVVM, MVP, MVC.
                 </span>
             </div>
             <div className="flex flex-col gap-5">
@@ -37,14 +37,14 @@ function Main() {
                 <Lightstrike />
                 <Project
                     title="Affirmations"
-                    techs=" kotlin, MVVM, Hilt, Retrofit, Room"
+                    techs=" trainig work with recylce view"
                     gifurl= {affirmations}
                     giturl=" https://github.com/RodionLeon/Android-TMS/tree/master/AndroidTask4"
                 />
                 <Lightstrike />
                 <Project
                     title="Roll Dice"
-                    techs=" kotlin, MVVM, Hilt, Retrofit, Room"
+                    techs=" practiced working with ImageView "
                     gifurl={rollDice}
                     giturl=" https://github.com/RodionLeon/Android-TMS/tree/master/Android%20task%202"
                 />
