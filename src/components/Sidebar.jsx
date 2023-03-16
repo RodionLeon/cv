@@ -1,22 +1,25 @@
 import Contacts from './Contatcs';
-import Education from './Education';
 import Skills from './Skills';
 import Subtitle from './Subtitle';
 
 function Sidebar() {
     return (
-        <div className="bg-side h-full w-full p-5">
-            <div className="flex flex-col gap-4">
+        <div className="h-full w-full max-w-[375px]">
+            <div className="flex flex-col gap-2">
                 <Subtitle content="Contacts" />
-                <Contacts location={'Minsk,BY'} git="" link="" tg="" />
-                <Subtitle content="Education" />
-                <Education />
-                <Subtitle content="Skills" />
-                <Skills />
+                <Contacts />
                 <Subtitle content={'Languages'} />
                 <div className="flex flex-col gap-2">
-                    <span className="text-xl font-normal">Russian(Native)</span>
-                    <span className="text-xl font-normal">English(B1)</span>
+                    <p className="text-xl font-normal">English (B1)</p>
+                </div>
+                <Subtitle content="Skills" />
+                <Skills />
+                <Subtitle content="Soft Skills" />
+                <div className="flex flex-col gap-2">
+                    <p className="text-xl font-normal">Attentiveness</p>
+                    <p className="text-xl font-normal">Responsibility</p>
+                    <p className="text-xl font-normal">Learnability</p>
+                    <p className="text-xl font-normal">Open to learn something new</p>
                 </div>
             </div>
         </div>

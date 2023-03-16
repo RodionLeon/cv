@@ -1,32 +1,20 @@
-import {Rating} from '@mui/material';
-
 function Skills() {
     return (
-        <div className="flex flex-col">
-            <div className="flex flex-row items-center justify-between gap-2">
-                <span className="text-xl font-normal">Kotlin</span>
-                <Rating name="read-only" value={4} readOnly />
-            </div>
-            <div className="flex flex-row items-center justify-between gap-2">
-                <span className="text-xl font-normal">Java</span>
-                <Rating name="read-only" value={3} readOnly />
-            </div>
-            <div className="flex flex-row items-center justify-between gap-2">
-                <span className="text-xl font-normal">GitHub</span>
-                <Rating name="read-only" value={3} readOnly />
-            </div>
-            <div className="flex flex-row items-center justify-between gap-2">
-                <span className="text-xl font-normal">JS</span>
-                <Rating name="read-only" value={3} readOnly />
-            </div>
-            <div className="flex flex-row items-center justify-between gap-2">
-                <span className="text-xl font-normal">React</span>
-                <Rating name="read-only" value={2} readOnly />
-            </div>
-            <div className="flex flex-row items-center justify-between gap-2">
-                <span className="text-xl font-normal">C++</span>
-                <Rating name="read-only" value={2} readOnly />
-            </div>
+        <div className="flex flex-col gap-1 text-xl">
+            <p>Kotlin</p>
+            <p>Java</p>
+            <p>Git</p>
+            <p>JSON</p>
+            <p>MVVM, MVP, MVI, MVC</p>
+            <p>Retrofit, Glide</p>
+            <p>Hilt</p>
+            <p>SQLite, Room</p>
+            <p>OOP</p>
+            <p>Clean Architecture</p>
+            <p>FLOW</p>
+            <p>ViewBinding, DataBinding</p>
+            <p>DRY, SOLID, KISS, YAGNI</p>
+            <p>Firebase</p>
         </div>
     );
 }
